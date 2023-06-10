@@ -1,10 +1,8 @@
 import numpy as np 
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score, classification_report
+from sklearn.metrics import accuracy_score
 import pickle
 from sklearn.preprocessing import StandardScaler
 import streamlit as st
